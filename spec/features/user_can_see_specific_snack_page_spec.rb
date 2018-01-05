@@ -2,7 +2,7 @@ require 'rails_helper'
 
 describe "As a user" do
   context "when i viist a specific snack page" do
-    it "displays the name of that snack, price, list of locations with machines that carry that snack, and the average price for snacks in those machines and displays the count of different kinds of items in the machine" do
+    xit "displays the name of that snack, price, list of locations with machines that carry that snack, and the average price for snacks in those machines and displays the count of different kinds of items in the machine" do
       owner = Owner.create(name: "Sam's Snacks")
 
       vitos = owner.machines.create(location: "Vito's Laundromat")
