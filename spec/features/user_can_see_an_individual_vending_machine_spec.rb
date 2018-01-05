@@ -24,6 +24,6 @@ feature 'When a user visits a vending machine show page' do
     expect(page).to have_content(twix.name)
     expect(page).to have_content(twix.price)
 
-    expect(page).to have_content("Average Price: $3.20")
+    expect(page).to have_content("Average Price: $1.60")
   end
 end
