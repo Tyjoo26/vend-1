@@ -1,0 +1,6 @@
+
+<%=@snack.name %>
+<%= number_to_currency(@snack.price) %>
+<% @snack.machines.each do |machine| %>
+<%= machine.location %>
+<% end %>

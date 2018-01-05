@@ -1,5 +1,6 @@
 require 'rails_helper'
 
+
 feature 'When a user visits a vending machine show page' do
   scenario 'they see the location of that machine' do
     owner = Owner.create(name: "Sam's Snacks")
