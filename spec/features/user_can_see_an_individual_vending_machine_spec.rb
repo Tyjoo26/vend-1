@@ -19,10 +19,10 @@ feature 'When a user visits a vending machine show page' do
     visit machine_path(dons)
 
     expect(page).to have_content(snickers.name)
-    expect(page).to have_content(snickers.price)
+    expect(page).to have_content("$1.25")
 
     expect(page).to have_content(twix.name)
-    expect(page).to have_content(twix.price)
+    expect(page).to have_content("$1.95")
 
     expect(page).to have_content("Average Price: $1.60")
   end
